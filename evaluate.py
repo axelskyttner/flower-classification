@@ -20,7 +20,7 @@ le.fit(Y)
 
 Y_numeric = le.transform(Y)
 
-predictor2 = load('model.joblib')
+predictor2 = load('models/model.joblib')
 pred = predictor2.predict(X)
 
 print(pred)
